@@ -1,0 +1,18 @@
+#@Fixed/Client
+@METGUIDEwork01:	în intrologin.py;			TimeOutMsg și timeOutOk nedefinite, și poate apărea o eroare după timeout la logare
+@METGUIDEwork02:	în uishop.py;				Cele 3 butoane din shop_ex vor selecta button2 în loc de button1 la încărcare
+@METGUIDEwork03:	în game.py;					Elementele DS sunt evidențiate înainte ca interfața să fie încărcată complet
+@METGUIDEwork04:	în uiinventory.py;			Dacă yang-ul selectat cu mouse-ul este peste un obiect cu socket-uri, următorul tooltip va fi gol
+@METGUIDEwork05:	în uiprivateshopbuilder.py;	Semnele magazinelor nu sunt curățate la re-warp, astfel încât monștrii din alte nuclee de joc ar putea avea nume de magazin
+@METGUIDEwork06:	în uitooltip.py;			Corecție la tooltip-ul abilității de conducere (ghid)
+@METGUIDEwork07:	în uisafebox.py;			Comenzile "/safebox_close" și "/mall_close" sunt repetate exagerat după ieșirea din raza limită, cauzând deconectarea
+@METGUIDEwork08:	în uidragonsoul.py,			Mutarea sloturilor DS echipate în altele declanșează automat dezechiparea; nu se poate reselecta același slot pentru a detașa mouse-ul
+					în uiinventory.py;			-//-
+@METGUIDEwork09:	în uitooltip.py;			Obiectele fără timp rămas arătau "timp rămas 0" în magazine
+@METGUIDEwork10:	în uichat.py;				Timpul pentru ultimul strigăt era calculat incorect la rewarp
+@METGUIDEwork11:	în uiminimap.py;			Minimapa nu comuta corect fereastra atlas
+@METGUIDEwork12:	în game.py;					Format corect pentru suma de yang la colectare (MoneyFormat) pentru lizibilitate îmbunătățită.
+@METGUIDEwork13:	în interfacemodule.py;		uiQuest.QuestCurtain nu era curățat corect
+@METGUIDEwork14:	în uitooltip.py;			AutoAppendTextLine nu calcula corect noua poziție pe lățime
+@METGUIDEwork15:	în ui.py;					EditLine.OnPressEscapeKey returna True chiar și dacă nu era focalizat
+@METGUIDEwork16:	în intrologin.py;			Focalizare nedorită pe input-uri când se selecta tabloul de servere
